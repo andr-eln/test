@@ -1,5 +1,15 @@
-.hello {
-    color: red;
+#hello {
+    color: black;
     font-size: 16px;
+    background-color: red;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#hello:hover {
+    color: white;
     background-color: blue;
+    cursor: pointer;
 }

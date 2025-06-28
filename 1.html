@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="1.css">
 </head>
 <body>
     <div id="hello"> hello </div>
+    <script> 
+        // add when clicked to set the text to "Hello, CSS!" but before to still be hello
+        document.getElementById('hello').addEventListener('click', function() {
+            this.textContent = 'Hello, CSS!';
+        });
+
+    </script>
 </body>
 </html>
