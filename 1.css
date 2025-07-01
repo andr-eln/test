@@ -14,3 +14,8 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+#hello:active {
+    background-color: green;
+    transform: scale(0.9);
+}
